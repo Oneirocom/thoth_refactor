@@ -35,6 +35,12 @@ Next, install dependencies
 npm install
 ```
 
+The Speech to text feature used here requires a 75MB download of the [whisper](https://github.com/openai/whisper) models developed by OpenAI, they're required by the [whisper.cpp](https://github.com/ggerganov/whisper.cpp) wasm interface, to download the models and enable the feature
+
+```
+npm run download-whisper-bin
+```
+
 # Run Magick!
 
 ```
